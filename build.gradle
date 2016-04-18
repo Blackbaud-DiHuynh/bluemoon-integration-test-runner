@@ -15,8 +15,7 @@ configurations {
 }
 
 dependencies {
-    //testArtifact "com:blackbaud:${artifactId}:${version}"
-    //testArtifact "com.blackbaud:notifications-client:1.+"
+    testArtifact "com:blackbaud:${artifactId}:${version}"
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
 
